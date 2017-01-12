@@ -1,0 +1,299 @@
+.button:hover {
+
+    background: #FFFFFF;
+  /*  background: -webkit-linear-gradient( #777, #333);
+    background: -moz-linear-gradient( #777, #333);
+    background: -ms-linear-gradient( #777, #333);
+    background: -o-linear-gradient( #777, #333);
+    background: linear-gradient( #777, #333);*/
+    
+}
+.button, .buttonR{
+    width:auto;
+    padding:8px 0;
+    text-align:center;
+    display: inline-block;
+    /*float:left;*/
+    margin:0 8px 0 0;
+    border-radius:7px;
+    font-size: 0.85em;
+   /* width:120px;*/
+   /* color:#000;*/
+    font-family: Arial,sans-serif;
+}
+.repchoisis{
+
+
+	/*background-color: yellow;*/
+	background-color: #FFFF00;
+   /* background: -webkit-linear-gradient( #777, #333);
+    background: -moz-linear-gradient( #777, #333);
+    background: -ms-linear-gradient( #777, #333);
+    background: -o-linear-gradient( #777, #333);
+    background: linear-gradient( #777, #333);*/
+	width:auto;
+    padding:8px 0;
+    text-align:center;
+
+    margin:0 8px 0 0;
+    border-radius:7px;
+    font-size: 0.85em;
+ /*   width:120px;*/
+    color:#000;
+    font-family: Arial,sans-serif;
+}
+.inline {
+text-align: justify;
+}
+.button2{
+   width:auto;
+    padding:8px 0;
+    text-align:center;
+    display: inline-block;
+    /*float:left;*/
+    margin:0 8px 0 0;
+    border-radius:7px;
+    font-size: 0.85em;
+   /* width:120px;*/
+    color:#000;
+    font-family: Arial,sans-serif;
+  background: #555;
+    background: -webkit-linear-gradient( #777, #333);
+    background: -moz-linear-gradient( #777, #333);
+    background: -ms-linear-gradient( #777, #333);
+    background: -o-linear-gradient( #777, #333);
+    background: linear-gradient( #777, #333);
+}
+
+.repcorrecte{
+	background-color: #00FF00;
+}
+.jaune {
+	background-color: #FFFF00;
+}
+.rouge{
+	background-color: #FF0000;
+}
+.vert{
+	background-color: #00FF00;
+}
+.p1{
+	margin-top: 260px;
+	width: 150px;
+	border-radius: 20px;
+	text-align:center;
+	float:left;
+	position: absolute;
+	margin-left: 600px;
+	margin-top: 600px;
+
+}
+.tableau{
+	float: right;
+	position: absolute;
+	margin-left: 570px;
+	border: 2px solid black;
+	border-radius: 2px;
+	border-collapse: collapse;
+	text-align:center;
+	margin-top: 5px;
+}
+
+body{
+width: 1000px;
+height: 1000px;
+margin-left: 20%;
+}
+.formbutton{
+position: absolute;
+margin-top: 200px;
+
+}
+.joker{
+float: bottom;
+width: 100px;
+position: absolute;
+margin-top: 346px;
+height: 170px;
+
+}
+.titre{
+width: 450px;
+position: absolute;
+}
+.question{
+width: 400px;
+position: absolute;
+margin-top: 100px;
+}
+.gain{
+position: absolute;
+margin-top: 388px;
+margin-left:400px;
+
+}
+.cellule{
+border: 2px solid black;
+border-radius: 2px;
+text-align:center;
+}
+.cellule2{
+border: 3px solid black;
+text-align: center;
+}
+.j1{
+background-color: #FFFF00;
+
+}
+.j2{
+background-color: #00FF00;
+}
+.j3{
+background-color: #FF0000;
+}
+.mot{
+position: absolute;
+margin-top: 320px;
+height: 30px;
+width: 300px;
+}
+.continuerb1{
+position: absolute;
+margin-top: 440px;
+}
+.resultat{
+position: absolute;
+margin-top: 300px;
+}
+.cinquante{
+width: 100;
+position: absolute;
+margin-top: -38px;
+}
+.publique{
+margin-left: 80px;
+position: absolute;
+width: 100;
+margin-top: -58px;
+}
+.ami{
+margin-left: 160px;
+position: absolute;
+width: 100;
+margin-top: -78px;
+
+}
+.centrer{
+margin-left: 200px;
+}
+.centrer2{
+margin-left: 35%;
+
+}
+.position{
+width: 50px;
+position: absolute;
+height: 60px;
+margin-top: 350px;
+}
+.position2{
+width: 80px;
+position: absolute;
+margin-left: 100px;
+margin-top: 350px;
+}
+.ms{
+margin-top: -30px;
+position: absolute;
+width: 250px;
+}
+.saisi{
+width: 210px;
+height: 100px;
+margin-left: 50px;
+margin-top: 20px;
+}
+.saisiinscription{
+width: 210px;
+height:150px;
+margin-left: 35%;
+margin-top:15%;
+
+}
+.cree{
+width: 92px;
+}
+.centrer3{
+margin-left: 90px;
+}
+.saisi2{
+width: 300px;
+}
+.saisi3{
+width: 120px;
+height: 50px;
+position: absolute;
+margin-top: -19px;
+}
+.saisi4{
+width: 120px;
+height: 50px;
+position: absolute;
+margin-left: 100px;
+}
+.policetitle{
+color: black;
+font-size: xx-large;
+margin-left: 45px;
+}
+.police3{
+color: white;
+font-size: medium;
+}
+.police4{
+color: black;
+font-size: medium;
+}
+.saisi5{
+width: 100px;
+height: 50px;
+}
+.buconnecter{
+position: absolute;
+margin-top: -3.3%;
+}
+.bucompte{
+position: absolute;
+margin-left: 163px;
+margin-top; 0px;
+}
+.police6{
+color: black;
+font-size: medium;
+}
+.tamere{
+height: 42px;
+width: 1000px;
+background: white;
+position: absolute;
+border-radius: 6px;
+float:left;
+}
+.li a{
+	height: 42px;
+	margin-left: 685px;
+}
+.li2 a{
+margin-left: 885px;
+margin-top: -42px;
+}
+.postionbody2{
+
+}
+.policetitle2{
+height: 30px;
+color: white;
+position: absolute;
+margin-top: 10%;
+margin-left: 25%;
+}

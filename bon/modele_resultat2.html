@@ -1,0 +1,53 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <h1> Réponse</h1>
+    <link rel="stylesheet" href="./index.css"/>
+	</head>
+  <body>
+  
+<p> Question : {ecrit} </p>
+
+A :&nbsp;<button class="buttonR {classe1}" name="choix" value="1"{display1}>{reponsea}</button>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    B :&nbsp;<button class="buttonR {classe2}" name="choix" value="2"{display2}> {reponseb}</button>
+        <br><br>
+    C :&nbsp;<button  class="buttonR {classe3}" name="choix" value="3"{display3}>{reponsec}</button>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    D : <button class="buttonR {classe4}" name="choix" value="4"{display4}>{reponsed}</button>
+
+
+
+<p>Votre réponse est {reponse}</p> 
+<p> la bonne réponse est {br}</p>
+<p> {good}  {commentaire} </p>
+	
+
+
+
+
+<form action="/req_continuer" method="GET">
+   {bouton1}
+	<input type="hidden" name="pseudo" value="{pseudo}">
+</form> 
+<form action="/req_fin" method="GET">
+	{bouton2}
+	<input type= "hidden" name="pseudo" value="{pseudo}">
+</form>	
+	<form action="/req_fin" method="GET">
+	{bouton3}
+	<input type="hidden" name="pseudo" value="{pseudo}">
+	</form>
+ <div align="right">
+
+
+
+    <p> Nom : {pseudo} </p>
+    <p> Somme : {somme} </p>
+    <p> Palier : {niveau} </p>
+</div>
+  </body>
+</html>
+
+
