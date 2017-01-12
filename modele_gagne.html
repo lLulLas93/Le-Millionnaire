@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<div align="center">
+<h1>CHAMPION</h1>
+</div>
+</head>
+<body>
+
+
+<p> Bravo, vous avez répondu à toutes les questions, vous repartez donc avec la somme de : 1000000, 
+Vous avez également la possibilité de rentrer votre propre question dans notre jeu !
+Merci, et à bientôt !</p>
+
+<form action="/req_rejouer" method="GET">
+
+<input type="hidden"  name="pseudo" value="{pseudo}">
+<button name="action" value="Retour accueil membre">Refuser</button>
+
+</form>
+
+
+
+<form action="/req_champion" method="GET">
+<input type="hidden" name="pseudo" value="{pseudo}">
+
+<label> Question </label><input type="text" name="question" value="">
+<br/>
+<label>Reponse 1 : </label><input type="text" name="reponsea" value="">
+<br/>
+<label>Reponse 2 : </label><input type="text" name="reponseb" value="">
+<br/>
+<label>Reponse 3 : </label><input type="text" name="reponsec" value="">
+<br/>
+<label>Reponse 4 : </label><input type="text" name="reponsed" value="">
+<br/>
+<label>Bonne Reponse : </label><input type="number" name="br" value="">
+<br/>
+
+<button name="action" value="creer">Valider</button>
+</form>
+
+
+<form action="/req_deconnecter" method="GET">
+
+<input type="hidden"  name="pseudo" value="{pseudo}">
+<button name="action" value="deconnecter"> Déconnecter</button>
+</form>
+<p> Au revoir {pseudo}</p>
+</body>
+</html>
+
+
+

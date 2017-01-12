@@ -1,0 +1,35 @@
+<!DOCCTYPE html>
+<html>
+	<head>
+		<meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
+		<link rel="stylesheet" href="./css/bootstrap.css">
+		<link rel="stylesheet" href="./index.css"/>
+		<body background="./background3.jpg">
+		<h2>Bienvenue !</h2>
+		<p/>
+	</head>
+	<body>
+		Bonjour <em>{pseudo}<em>
+		</p>
+		
+			<form action="/req_debuter" method="GET"> 
+		<div class="saisi2" method="GET">
+			<label>Choisissez le nom d'un ami à appeler pour votre joker: </label>
+			<div class="form-control" method="GET">
+			<input type="text" name="ami" value="" placeholder="Ami">
+		</div>
+				
+			</br>
+					</br><button name="action"class="btn btn-success">Jouer</button>
+					<input type="hidden" name="reponse" value="{nb}">
+					<input type="hidden" name="pseudo" value="{pseudo}">
+				</form>
+			
+			<form action="/req_deconnecter" class="saisi4" method="GET">
+ 				<button name="action"class="btn btn-primary"> Déconnecter</button>
+ 				<input type="hidden" name="pseudo" value="{pseudo}">
+		    </form>
+	</body>
+</html>
+
+

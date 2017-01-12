@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<link rel="stylesheet" href="./index.css"/>
+<META http-equiv="Refresh" content="1; URL= modele_jeux.html">
+</head>
+<body>
+<div class="titre">
+<h1>Le Jeu Commence ! </h1>
+</div>
+<div class="question">
+<p><h4>  {ecrit} </h4></p>
+</div>
+
+
+
+
+<form class= "formbutton" action="/req_debuer" method="GET">
+A :&nbsp;<button class="button" name="choix" value="1"{display1}>{reponsea} {a}</button>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  
+
+<input type="hidden" name="pseudo" value="{pseudo}">
+</form>
+<br>
+<br>
+<div class= "tableau" >
+<TABLE BORDER="1">
+<CAPTION> Voici le Palier de la fortune de {pseudo} </CAPTION>
+<TR>
+<TH class="cellule2 "> Question </TH>
+<TH class="cellule2 "> Somme </TH>
+</TR>
+<TR>
+<TD class="cellule {c15}"> 15 </TD>
+<TD class="cellule {c15}"> 100000 </TD>
+<TR>
+<TD class="cellule {c14}"> 14 </TD>
+<TD class="cellule {c14}"> 500000 </TD>
+</TR>
+<TR>
+<TD class="cellule {c13}"> 13 </TD>
+<TD class="cellule {c13}"> 250000  </TD>
+</TR>
+<TR>
+<TD class="cellule {c12}"> 12 </TD>
+<TD class="cellule {c12}"> 125000 </TD>
+</TR>
+<TD class="cellule {c11}"> 11 </TD>
+<TD class="cellule {c11}"> 64000 </TD>
+</TR>
+<TR>
+<TD class="cellule {c10}"> 10 </TD>
+<TD class="cellule {c10}"> 32000 </TD>
+</TR>
+<TR>
+<TD class="cellule {c9}"> 9 </TD>
+<TD class="cellule {c9}"> 16000 </TD>
+</TR>
+<TR>
+<TD class="cellule {c8}"> 8 </TD>
+<TD class="cellule {c8}"> 8000 </TD>
+</TR>
+<TR>
+<TD class="cellule {c7}"> 7 </TD>
+<TD class="cellule {c7}"> 4000 </TD>
+</TR>
+<TR>
+<TD class="cellule {c6}"> 6 </TD>
+<TD class="cellule {c6}"> 2000 </TD>
+</TR>
+<TR>
+<TD class="cellule {c5} {c5c}"> 5 </TD>
+<TD class="cellule {c5} {c5c}"> 1000 </TD>
+</TR>
+<TR>
+<TD class="cellule {c4} {c4c}"> 4 </TD>
+<TD class="cellule {c4} {c4c}"> 500 </TD>
+</TR>
+<TR>
+<TD class="cellule {c3} {c3c}"> 3 </TD>
+<TD class="cellule {c3} {c3c}"> 300 </TD>
+</TR>
+<TR>
+<TD class="cellule {c2} {c2c}"> 2 </TD>
+<TD class="cellule {c2} {c2c}"> 200 </TD>
+</TR>
+<TR>
+<TD class="cellule {c1} {c1c}"> 1 </TD>
+<TD class="cellule {c1} {c1c}"> 100 </TD>
+</TR>
+</TABLE>
+</div>
+
+
+<div class="gain">
+<form action="/req_abandonner" method="GET">
+<button name="action" value="Abandonner">Partir avec vos gains</button>
+<input type="hidden" name="pseudo" value="{pseudo}">
+</form>
+</div>
+<div class="joker">
+ Jokers :
+ <form action="/req_aide_cinquante" method="GET">
+ <button name="choix" value="cinquante"{cinquante}>50:50</button>
+ <input type="hidden" name="pseudo" value="{pseudo}">
+ </form>
+ <form action="/req_aide_publique" method="GET">
+ <button name="choix" value="publique"{publique}>public</button>
+ <input type="hidden" name="pseudo" value="{pseudo}">
+ </form>
+ <form action="/req_aide_ami" method="GET">
+ <button name="choix" value="ami"{ami}>appel à {ami}</button>
+ <input type="hidden" name="pseudo" value="{pseudo}">
+ </div>
+ </form>
+ </body>
+
+

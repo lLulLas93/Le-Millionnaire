@@ -1,0 +1,30 @@
+
+<!DOCTYPE html> 
+<html>
+  <head>
+    <meta charset="UTF-8" />
+	<body background="./background3.jpg">
+	<link rel="stylesheet" href="./index.css"/>
+	<link rel="stylesheet" href="./css/bootstrap.css">
+	<h1>Fin</h1>
+    </head>
+  <body>
+    
+<div class="police4"> vous repartez avec la somme de {ns}  euros
+<p> Fin, au revoir {pseudo}</p></div>
+	
+	<form action="/req_rejouer" class="saisi5" method="GET">
+
+<input type="hidden"  name="pseudo" value="{pseudo}">
+<button name="action" class="btn btn-success btn-sm"value="Retour accueil membre">Retour accueil membre</button>
+	
+	</form>
+	<form action="/req_deconnecter" class="saisi5" method="GET">
+	
+	<input type="hidden"  name="pseudo" value="{pseudo}">
+	<button name="action"  class="btn btn-primary btn-sm" value="deconnecter"> Deconnecter</button>
+	</form>
+	
+  </body>
+</html>
+

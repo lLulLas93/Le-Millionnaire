@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8" />
+<div class="titre">
+<h1>suspense</h1>
+</div>
+<link rel="stylesheet" href="./index.css"/>
+</head>
+<body>
+<div class="question">
+<p><h4> {ecrit} <h4></p>
+</div>
+<div class="formbutton">
+A :&nbsp;<button class="buttonR {classea}" name="choix" value="1"{display1}>{reponsea}</button>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+B :&nbsp;<button class="buttonR {classeb}" name="choix" value="2"{display2}> {reponseb}</button>
+<br><br>
+C :&nbsp;<button  class="buttonR {classec}" name="choix" value="3"{display3}>{reponsec}</button>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+D : <button class="buttonR {classed}" name="choix" value="4"{display4}>{reponsed} </button>
+<br>
+<p> c'est votre dernier mot {pseudo} ? </p>
+</div>
+<div class="mot">
+<form action="/req_analyser" method="GET">
+<br>       <button class="button">oui</button>
+<input type="hidden" name="pseudo" value="{pseudo}">
+</form>
+<form action="/req_dernier_mot" method="GET">
+<button class="button">non</button>
+<input type="hidden" name="pseudo" value="{pseudo}">
+</form>
+</div>
+</body>
+</html>
+

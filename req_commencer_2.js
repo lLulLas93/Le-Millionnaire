@@ -1,0 +1,2 @@
+// REQUETE QUI PERMET D AFFICHER L ACCUEIL
+"use strict";
