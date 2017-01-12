@@ -106,7 +106,7 @@ var traite_requete = function (req, res) {
 			case '/req_fin':
 				req_fin(req, res, query);
 				break
-			case '/req_rejouer':
+		case '/req_rejouer':
 				req_rejouer(req, res, query);
 				break
 			case '/req_deconnecter':
